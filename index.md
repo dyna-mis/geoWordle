@@ -29,6 +29,14 @@ In our visualization worbel, we then place category names inside the computed re
 
 
 This is the open source project GeoWordle---a generator of geo word cloud with point label aggregation, developed at the Institute of Logic and Computation, TU Wien, Vienna, Austria. 
+<div class="row">
+  <div class="column">
+    <img src="theorem.pdf" width="500">
+  </div>
+  <div class="column">
+    <img src="worble.pdf" width="500"> 
+  </div>
+</div>
 
 
 
