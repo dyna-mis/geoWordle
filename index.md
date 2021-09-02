@@ -34,7 +34,7 @@ This is the open source project GeoWordle---a generator of geo word cloud with p
     <img src="crops_all.txt_problem_greedy_box_point.pdf" width="500">
   </div>
   <div class="column">
-    <img src="worble.pdf" width="500"> 
+    <img src="crops_all.txt_problem_greedy_wordle_map.pdf" width="500"> 
   </div>
 </div>
 
