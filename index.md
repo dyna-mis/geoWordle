@@ -53,7 +53,7 @@ Please acknowledge our work if you publish your result using our algorithms or c
 ## Download
 Source code and benchmark instances (available in this github repository)
 
-Benchmark data generator for point features (available in this github repository)
+Benchmark data generator for point features (available in this [github repository](https://github.com/dyna-mis/geowordle_input_generator.git))
 
 ## Support
 Please write us an Email if you have questions.
