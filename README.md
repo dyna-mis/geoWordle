@@ -1,7 +1,7 @@
 ## <img src="dynamis_icon.gif" width="100"> Worbel: Aggregating Point Labels into Word Clouds
 for unit-height rectangle intersection graphs
 
-Github Page: https://dyna-mis.github.io/dynaMIS/
+Github Page: https://dyna-mis.github.io/geoWordle/
 # Requirements
 <ol>
 <li> MaxHS solver : http://www.maxhs.org/ </li>
