@@ -31,10 +31,10 @@ In our visualization worbel, we then place category names inside the computed re
 This is the open source project GeoWordle---a generator of geo word cloud with point label aggregation, developed at the Institute of Logic and Computation, TU Wien, Vienna, Austria. 
 <div class="row">
   <div class="column">
-    <img src="crops_all.txt_problem_greedy_box_point.pdf" width="500">
+    <img src="us_crop_box.jpg" width="500">
   </div>
   <div class="column">
-    <img src="crops_all.txt_problem_greedy_wordle_map.pdf" width="500"> 
+    <img src="us_crop_map.jpg" width="500"> 
   </div>
 </div>
 
