@@ -1,4 +1,4 @@
-## <img src="dynamis_icon.gif" width="100"> Dynamic Maximum/Maximal Independent Set Solver
+## <img src="dynamis_icon.gif" width="100"> Worbel: Aggregating Point Labels into Word Clouds
 for unit-height rectangle intersection graphs
 
 Github Page: https://dyna-mis.github.io/dynaMIS/
@@ -8,31 +8,30 @@ Github Page: https://dyna-mis.github.io/dynaMIS/
 <li>  g++ </li>
 </ol>
 # Description
-Our Framework contains 5 algorithms.
-* ors(rs) : a dynamic MIS algorithm based on orthogonal range searching (for unit squares)
-* graph(cg): a graph-based dynamic MIS algorithm
-* grid(sl): a grid-based 4-approximation algorithm （for unit squares）
-* gridK(slk): The group-shifting based algorithm. Need a extra parameter -k (for unit squares)
-* line(arrow): stabbing-line based 2-approximation algorithm
+Our Framework contains two algorithms.
+* exact(exact) : a worbel generation algorithm based on SAT solver
+* greedy(greedy): a greedy worbel generation algorithm
 ##<embed src="rectilinear-polygon.pdf" width="800px" height="2100px" />
-Additionally, our framework supports the greedy optimization with the maximal independent set solver,i.e., grid, gridk, and line.  The greedy versions drastically improve the solution
- quality, but typically at the cost of higher runtimes. 
+Additionally, more geometric approaches will be included soon in our framework.
 
 # Installation
 Compile the source with the Debug/Makefile file.
 # Usage
-./dynaMIS  <instance> [options]
+./geoWordle*  <instance> [options]
 
 
 --output, -o : output the solution</br>
 --help, -h : output this help</br>
---algorithm, -a : algorithm in use, please using the abbreviations (see description above). To adding greedy optimization, just add 'g' to the algorithm name, e.g., 'garrow'. </br>
+-l and -u : lower and upper bound of the width-height ratio
+-f : minimum font size
+-m : misscover tolerance ratio 
+--algorithm, -a : algorithm in use, please using the abbreviations (see description above).</br>
 --sigma, -s : width of a square</br>
 
 
 
 # Acknowledgments
-DynaMis is part of the project ["Human-Centered Algorithm Engineering: Graph and Map Visualization"](https://www.ac.tuwien.ac.at/research/humalgo/) supported by the Austrian Science Fund (FWF) under Grant P31119.
+DynaMis is part of the project ["Human-Centered Algorithm Engineering: Graph and Map Visualization"](https://www.ac.tuwien.ac.at/research/humalgo/) supported by the Austrian Science Fund (FWF) under Grant P31119, P 31336 and Y1329.
 # Reference
-More details see our paper "An Algorithmic Study of Fully Dynamic Independent Sets for Map Labeling"([ARXIV LINK](https://arxiv.org/abs/2002.07611))
+More details see our paper "Worbel: Aggregating Point Labels into Word Clouds"([ARXIV LINK](comming soon))
 
