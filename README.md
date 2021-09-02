@@ -4,7 +4,7 @@ for unit-height rectangle intersection graphs
 Github Page: https://dyna-mis.github.io/dynaMIS/
 # Requirements
 <ol>
-<li>CGAL (>= 4.11.2)</li>
+<li> MaxHS solver : http://www.maxhs.org/ </li>
 <li>  g++ </li>
 </ol>
 # Description
