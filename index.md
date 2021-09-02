@@ -1,4 +1,24 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> <style> * { box-sizing: border-box; } .column { float: left; width: 50%; padding: 5px; } /* Clearfix (clear floats) */ .row::after { content: ""; clear: both; display: table; } </style>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+## Overview
 Overview
 Point feature labeling is a classical problem in cartography and GIS that has been extensively studied for geospatial point data.
 At the same time, word clouds are a popular visualization tool to show the most important words in text data which has also been extended to visualize geospatial data (Buchin et al. PacificVis 2016).
@@ -12,27 +32,27 @@ This is the open source project GeoWordle---a generator of geo word cloud with p
 
 
 
-Licence
+## Licence
 This project is under MIT licence.
 
-Reference
+## Reference
 If you want to know more about our implemented algorithms, please refer to our paper:
 Worbel: Aggregating Point Labels into Word Clouds
 Sujoy Bhore, Robert Ganian, Guangping Li, Martin Nöllenburg and Jules Wulms. (SigSpatial'21， comming soon 10.1145/3474717.3483959) 
 
 Please acknowledge our work if you publish your result using our algorithms or code.
 
-Download
+## Download
 Source code and benchmark instances (available in this github repository)
 
 Benchmark data generator for point features (available in this github repository)
 
-Support
+## Support
 Please write us an Email if you have questions.
 
 We are glad to get any comments and error reports.
 
 A random instance generator is available upon request.
 
-Acknowledgments
+## Acknowledgments
 GeoWordle is part of the project "Human-Centered Algorithm Engineering: Graph and Map Visualization" supported by the Austrian Science Fund (FWF) under Grant P31119, 31336 and Y1329.
