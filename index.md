@@ -51,7 +51,7 @@ Sujoy Bhore, Robert Ganian, Guangping Li, Martin Nöllenburg and Jules Wulms. (S
 Please acknowledge our work if you publish your result using our algorithms or code.
 
 ## Download
-Source code and benchmark instances (available in this github repository)
+Source code and benchmark instances (available in this [github repository](https://github.com/dyna-mis/geoWordle.git))
 
 Benchmark data generator for point features (available in this [github repository](https://github.com/dyna-mis/geowordle_input_generator.git))
 
