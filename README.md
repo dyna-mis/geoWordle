@@ -1,4 +1,4 @@
-## <img src="dynamis_icon.gif" width="100"> Worbel: Aggregating Point Labels into Word Clouds
+Worbel: Aggregating Point Labels into Word Clouds
 for unit-height rectangle intersection graphs
 
 Github Page: https://dyna-mis.github.io/geoWordle/
