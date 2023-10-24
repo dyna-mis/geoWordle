@@ -44,9 +44,17 @@ This is the open source project GeoWordle---a generator of geo word cloud with p
 This project is under MIT licence.
 
 ## Reference
-If you want to know more about our implemented algorithms, please refer to our paper:
-Worbel: Aggregating Point Labels into Word Clouds
-Sujoy Bhore, Robert Ganian, Guangping Li, Martin Nöllenburg and Jules Wulms. (SigSpatial'21， comming soon 10.1145/3474717.3483959) 
+If you want to know more about our implemented algorithms, please refer to our papers:
+**Worbel: Aggregating Point Labels into Word Clouds**<br>
+Sujoy Bhore, Robert Ganian, Guangping Li, Martin Nöllenburg, Jules Wulms<br>
+Advances in Geographic Information Systems (SIGSPATIAL'21), pages 256–267, 2021, ACM.<br>
+[[bibtex]](https://www.ac.tuwien.ac.at/publications/bglnw-wapliwc-21?file=../../publications/noellenburg-ac-web.bib) [[pdf]](https://arxiv.org/abs/2109.04368) [[doi]](https://dl.acm.org/doi/10.1145/3474717.3483959)
+
+**Worbel: Aggregating Point Labels into Word Clouds**<be>
+Sujoy Bhore, Robert Ganian, Guangping Li, Martin Nöllenburg, Jules Wulms<be>
+ACM Trans. Spatial Algorithms and Systems, volume 9, number 3, pages 19:1–19:32, 2023.
+[[bibtex]](https://www.ac.tuwien.ac.at/publications/bglnw-wapliwc-23?file=../../publications/noellenburg-ac-web.bib) [[doi]](https://dl.acm.org/doi/10.1145/3603376)
+
 
 Please acknowledge our work if you publish your result using our algorithms or code.
 
